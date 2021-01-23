@@ -98,7 +98,7 @@ public class VentraCardMachine {
         if(hasEmailAddress){
             return true;
         }else{
-            System.out.println("Sorry! Your email address is not in the system!");
+            System.out.println("Sorry! Your email address is not in the system! please enter a correct email address");
             return false;
         }
     }
